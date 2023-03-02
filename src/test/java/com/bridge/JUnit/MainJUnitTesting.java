@@ -12,4 +12,10 @@ public class MainJUnitTesting {
         assertTrue(result);
 
     }
+    @Test
+    public void givenFirstCharacterUpperCase_whenTestedLastName_shouldReturnTrue(){
+        MainJUnit lastName=new MainJUnit();
+        boolean result = lastName.checkLastName("Nanaware");
+        assertTrue(result);
+    }
 }
